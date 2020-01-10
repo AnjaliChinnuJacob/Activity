@@ -1,5 +1,5 @@
 #include<stdio.h>
-void swap(int*p1,int*p2);
+void swap(int*,int*);
 int main() {
   int a,b;
   a=30;
