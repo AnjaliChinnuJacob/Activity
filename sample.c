@@ -1,9 +1,8 @@
 #include<stdio.h>
 void swap(int*,int*);
 int main() {
-  int a,b;
-  a=30;
-  b=40;
+  int a=30,b=40;
+ 
   swap(&a,&b);
   printf("a=%d,b=%d\n",a,b);
   return 0;
